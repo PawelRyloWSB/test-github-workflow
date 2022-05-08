@@ -1,0 +1,7 @@
+  name: Display python version
+  on: [push]
+  jobs:
+    GitHub-Actions:
+      runs-on: ubuntu-latest
+      steps:
+        - run: python --version
