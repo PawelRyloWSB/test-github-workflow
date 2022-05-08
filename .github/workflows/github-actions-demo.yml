@@ -4,7 +4,6 @@
     Display-python-version:
       runs-on: ubuntu-latest
       steps:
-        - name: Display python version
         - run: python --version
     Run-pylint:
       runs-on: ubuntu-latest
